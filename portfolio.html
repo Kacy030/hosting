@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Portfolio Website</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: sans-serif;
+        }
+        body{
+            background: url('https://static.vecteezy.com/system/resources/previews/027/842/740/non_2x/baking-background-cooking-ingredients-for-dough-eggs-flour-sugar-butter-rolling-pin-on-white-style-kitchen-photo.jpg');
+            background-repeat:no-repeat;
+            background-size:cover;
+           
+        }
+  
+        .header{
+            margin: 1px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            padding: 35px 10%;
+            display: flex;
+            justify-content:space-between ;
+            align-items: center;
+            z-index: 100;
+            background: transparent;
+         }
+         footer{
+            text-align: center;
+            background:transparent;
+            padding-top:1px;
+            padding-bottom:10px;
+            padding-top: 10px;
+            font-family: sans-serif;
+            
+            font-size: small;
+            margin-top: 100px;
+        }
+         .logo{
+            font-size: 25px;
+            color:black;
+            text-decoration: none;
+            font-weight: 600;
+             
+         }
+         .navbar a{
+            font-size:18px ;
+            color:black;
+            text-decoration: none;
+            font-weight: 500;
+            margin-left: 25px;
+            transition: .3s;
+             
+         }
+         .navbar a:hover{
+            color:brown;
+
+         }
+         .home{
+            height:85vh;
+            padding:2px 10%;
+            display:flex;
+            align-items: center;
+         }
+         .home-content{
+            max-width: 600px;
+            margin-top:200px;
+         }
+         .home-content h1{
+            font-size: 56px;
+            font-weight: 700;
+           
+         }
+         .home-content h3{
+            font-size: 32px;
+            font-weight: 700;
+            color:brown;
+            padding-bottom: 10px;
+
+         }
+         .home-content p{
+            font-size: 16px;
+
+
+         }
+         .home-content .button{
+            display:flex;
+            justify-content: space-between;
+            width:350px;
+            height:50px;
+           
+         }
+         .button a{
+            display: inline-flex;
+            justify-content: center;
+            align-items:center ;
+            font-size: 19px;
+            color: black;
+            text-decoration: none;
+            font-weight: 600;
+            letter-spacing: 1px;
+            width:150px;
+            height: 100%;
+            background-color:darksalmon;
+            border:2px solid brown;
+            border-radius: 8px;
+         }
+         
+         .button a:hover{
+            background-color: rgb(241, 83, 35);
+
+         }
+
+         
+         
+    </style>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">The Baker's Society.</a> 
+        <nav class="navbar">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Works</a>
+            <a href="#">Branches</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <section class="home">
+        <div class="home-content">
+            <h1>Hi, I'm Kacy</h1>
+            <h3>Baker</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis quia impedit veniam repellendus 
+                maxime culpa nemo perspiciatis doloribus, deleniti laudantium iure perferendis necessitatibus laborum 
+                eos praesentium beatae et! Aut, alias exercitationem labore tempore numquam suscipit minus laboriosam
+                 veniam iste. Facere distinctio voluptates dignissimos architecto repellendus! Recusandae beatae magni
+                  quo veniam.</p>
+                  <br><br>
+                  <div class="button">
+                    <a href="#">Place Order</a>
+                    <a href="#">View Menu</a>
+        </div>
+               
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 The Bakers Society</p>
+    </footer>
+    
+</body>
+</html>
